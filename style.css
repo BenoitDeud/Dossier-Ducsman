@@ -1,0 +1,37 @@
+body{
+    background-color: #252525;
+    color: rgba(255, 253, 253, 0.986);
+    border: 50px;
+}
+
+img {
+    width:  1406px;
+     }
+ 
+p{
+    color: rgba(117, 115, 115, 0.877);
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 300px 300px;
+}
+
+.box{
+    display: flex;
+    flex-direction:row ;
+    gap: 100px;
+}
+
+footer{
+    text-align: center;
+}
+
+footer span{
+   color: white;
+}
+button{
+    padding: 10px 15px 10px;
+    color: white;
+    background-color:rgba(117, 115, 115, 0.877);
+}
