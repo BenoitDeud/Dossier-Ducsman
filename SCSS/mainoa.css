@@ -1,0 +1,363 @@
+@charset "UTF-8";
+@import "./style.css";
+@import "./oastyle.css";
+@import "./flaticons.css";
+@import "./themify-icons.css";
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 2px solid #2b2b2b;
+  background-color: #2b2b2b;
+  width: 27vh;
+  height: 7%;
+  margin-top: -20vh;
+  margin-left: 93vh;
+}
+
+/* scss background color*/
+body {
+  border: 2px #222222 solid;
+  background-color: #222222;
+  height: 2800px;
+} /* scss background color*/
+.flexbox {
+  display: flex;
+  flex-direction: column;
+  border: 0px solid #2b2b2b;
+  width: 700px;
+  height: 930px;
+  background-color: #2b2b2b;
+  margin-left: 28%;
+}
+
+/*flexbox epanouissement decouverte experience*/
+img {
+  width: 50%;
+}
+
+.acceuilresto {
+  float: left;
+}
+
+.acceuilbe {
+  float: right;
+}
+
+.fitnessclub {
+  float: left;
+}
+
+.piscine {
+  float: right;
+}
+
+.decouverte {
+  color: #95754a;
+  margin-left: 53%;
+}
+
+.experience {
+  color: #95754a;
+  float: left;
+  margin-left: 2.3%;
+  font-family: "flaticons";
+}
+
+.epanouissement {
+  color: #95754a;
+  margin-left: 53%;
+}
+
+.experience2 {
+  color: #95754a;
+  margin-left: 2.3%;
+}
+
+.restauranth1 {
+  color: white;
+  margin-left: 53%;
+}
+
+.bienetreh2 {
+  color: white;
+  text-align: left;
+  margin-left: 2.3%;
+}
+
+.fitness1 {
+  color: white;
+  margin-left: 53%;
+}
+
+.aquatique {
+  color: white;
+  margin-left: 2.3%;
+}
+
+.restop1 {
+  color: #5c5c5c;
+  margin-left: 53%;
+  font-size: 13px;
+}
+
+.bienetre1 {
+  color: #5c5c5c;
+  margin-left: 2.3%;
+  font-size: 13px;
+}
+
+.fitness2 {
+  color: #5c5c5c;
+  margin-left: 53%;
+  font-size: 13px;
+}
+
+.aquatique2 {
+  color: #5c5c5c;
+  margin-left: 2.3%;
+  font-size: 13px;
+}
+
+.golden1 {
+  color: white;
+  border: 1px #ac8c64 solid;
+  width: 20%;
+  background-color: #ac8c64;
+  margin-left: 370px;
+}
+
+.golden2 {
+  color: white;
+  border: 1px #ac8c64 solid;
+  width: 20%;
+  background-color: #ac8c64;
+  margin-left: 2.3%;
+}
+
+.golden3 {
+  color: white;
+  border: 1px #ac8c64 solid;
+  width: 20%;
+  background-color: #ac8c64;
+  margin-left: 53%;
+}
+
+.golden4 {
+  color: white;
+  border: 1px #ac8c64 solid;
+  width: 20%;
+  background-color: #ac8c64;
+  margin-left: 2.3%;
+}
+
+.flex-item {
+  max-width: 100vh;
+  border: 2px solid #2b2b2b;
+  background-color: #2b2b2b;
+} 
+/* option services de l'hôtel*/
+.option {
+  margin-top: 5%;
+  color: white;
+  margin-left: 28%;
+}
+
+.optn1 {
+  color: #5c5c5c;
+  font-size: 13px;
+  margin-left: 28%;
+}
+
+.info {
+  color: #5c5c5c;
+  font-size: 13px;
+  margin-left: 32%;
+}
+
+.tel {
+  color: #95754a;
+  font-size: 17px;
+  margin-top: -1%;
+  margin-left: 32%;
+}
+
+/*grid service coffre et dejeuner*/
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 2px solid #2b2b2b;
+  background-color: #2b2b2b;
+  width: 27vh;
+  height: 7%;
+  margin-top: -20vh;
+  margin-left: 93vh;
+}
+
+.petitdejeuner {
+  border: 2px solid #2b2b2b;
+  background-color: #2b2b2b;
+  width: 25vh;
+  height: 7%;
+  line-height: 20px;
+}
+
+.coffre {
+  border: 2px solid #2b2b2b;
+  background-color: #2b2b2b;
+  margin-left: 15%;
+  width: 27vh;
+  height: 99%;
+  line-height: 20px;
+}
+
+.dej {
+  color: white;
+  margin-left: 10%;
+  padding-top: 10%;
+}
+
+span {
+  color: #95754a;
+}
+
+.gold {
+  font-size: 30px;
+}
+
+.deje1 {
+  margin-left: 10%;
+  color: #5c5c5c;
+  font-size: 13px;
+}
+
+/* felxbox services hotel*/
+.services {
+  color: white;
+  margin-left: 28%;
+  margin-top: 5%;
+}
+
+.flexservices {
+  display: flex;
+  flex-direction: column;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  width: 700px;
+  height: 380px;
+  background-color: #222222;
+  margin-left: 28%;
+}
+
+.service1 {
+  border: 1px solid #2b2b2b;
+  width: 29vh;
+  height: 23vh;
+}
+
+.tprpid {
+  color: white;
+}
+
+.uno {
+  color: #5c5c5c;
+}
+
+.service2 {
+  border: 1px solid #2b2b2b;
+  width: 29vh;
+  height: 20vh;
+  margin-left: 34.5%;
+  margin-top: -24.7%;
+}
+
+.service3 {
+  border: 1px solid #2b2b2b;
+  width: 29vh;
+  height: 20vh;
+  margin-left: 68.9%;
+  margin-top: -21.6%;
+}
+
+.service4 {
+  border: 1px solid #2b2b2b;
+  width: 29vh;
+  height: 20vh;
+  margin-top: 7%;
+}
+
+.service5 {
+  border: 1px solid #2b2b2b;
+  width: 29vh;
+  height: 20vh;
+  margin-left: 34.5%;
+  margin-top: -21.4%;
+}
+
+.service6 {
+  border: 1px solid #2b2b2b;
+  width: 29vh;
+  height: 20vh;
+  margin-left: 68.9%;
+  margin-top: -21.5%;
+}
+
+/*contact et a propos de l'hôtel*/
+.oapropos {
+  color: white;
+  margin-left: 28%;
+  margin-top: 7%;
+}
+
+.onlyhotel {
+  color: #5c5c5c;
+  margin-left: 28%;
+  font-size: 13px;
+}
+
+.contactoa {
+  margin-top: -9%;
+  margin-left: 60%;
+}
+
+.azor {
+  color: white;
+}
+
+.avenue {
+  color: #5c5c5c;
+}
+
+.phone {
+  color: white;
+}
+
+.mail {
+  color: white;
+  -webkit-text-decoration: underline #95754a;
+          text-decoration: underline #95754a;
+}
+
+.contactoa {
+  margin-top: -9%;
+  margin-left: 60%;
+}
+
+.azor {
+  color: white;
+}
+
+.avenue {
+  color: #5c5c5c;
+}
+
+.phone {
+  color: white;
+}
+
+.mail {
+  color: white;
+  -webkit-text-decoration: underline #95754a;
+          text-decoration: underline #95754a;
+}
+
+/* scss background color*//*# sourceMappingURL=main.css.map */
