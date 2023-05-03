@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(49, 49, 49);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: rgb(181, 181, 181);
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: auto;
+    height: 25em;
+    padding-right: 15em;
+    padding: 30px;
+    margin: auto;
+    gap: 10%;
+    /* background-color: antiquewhite; */
+}
+
+h1 {
+    font-size: 15px;
+    color: white;
+}
+
+.maps {
+    text-align: center;
+    padding: 30px;
+}
