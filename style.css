@@ -2,6 +2,7 @@ body{
     background-color: #252525;
     color: rgba(255, 253, 253, 0.986);
     border: 50px;
+
 }
 
 img {
@@ -34,4 +35,12 @@ button{
     padding: 10px 15px 10px;
     color: white;
     background-color:rgba(117, 115, 115, 0.877);
+}
+.titre{
+    position: relative;
+    bottom: 500px; ;
+  color: rgb(2, 2, 2);
+}
+.imagetitre{
+    opacity: 0.7;
 }
