@@ -1,10 +1,90 @@
 body {
-    background-color: rgb(49, 49, 49);
+    font-family: 'PT Sans Narrow', sans-serif;
+    background-color: rgb(38, 38, 38);
     font-size: 15px;
     color: rgba(122, 122, 122, 0.7);
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-right: 10%;
+    font-family: "themify";
+    font-weight: normal;
+    font-style: normal;
+    font-family: "Flaticon";
 }
+
+body a {
+    color: #676767;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #aa8453;
+  }
+  
+  /* Header benoit
+  .header1 {
+    background-color: #1b1b1b;
+    color: #aa8453;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    width: 15rem;
+    padding-right: 2rem;
+    position: fixed;
+  }*/
+  
+    /*header Amina*/
+    .header1 {
+      background-color: #1b1b1b;
+      color: #aa8453;
+      font-family: 'PT Sans Narrow', sans-serif;
+      font-size: 12px;
+      display: flex;
+      flex-direction: column;
+      padding-top: 2%;
+      padding-left: 30px;
+      padding-bottom: 50%;
+      width: 12%;
+      padding-right: 2%;
+      position: fixed;
+      margin-top: -10px;
+  }
+  
+  
+    /* class header */
+    /* div2 */
+  
+  .header1 p {
+    color: white;
+  }
+  .header1 .liste {
+    color: #676767;
+    line-height: 30px;
+  }
+  .header1 .left2 {
+    display: flex;
+    flex-direction: row;
+  }
+  .header1 .left2 .left21 {
+    order: 1;
+  }
+  .header1 .left2 .left21 i {
+    font-size: 60px;
+  }
+  .header1 .left2 .left22 {
+    order: 2;
+  }
+  .header1 .left2 .num {
+    color: #aa8453;
+    font-size: 20px;
+  }
+  
+  /* SLIDER */
+  #slider .slider2 {
+    height: 50rem;
+    width: 87.5rem;
+    margin-left: 20rem;
+  }
 
 .row {
     display: flex;
@@ -13,23 +93,24 @@ body {
     align-items: center;
     width: auto;
     height: 25em;
-    padding: 30px;
+    padding-left: 22%;
     margin: auto;
     gap: 10%;
-    /* background-color: antiquewhite; */
+    /*background-color: antiquewhite;*/
 }
 
 h1 {
     font-size: 20px;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgb(255, 255, 255);
 }
 
 .maps {
+    padding-left: 22%;
     text-align: center;
 }
 
 .apropos {
-    width: 20em;
+    width: 40em;
 }
 
 textarea {
@@ -39,7 +120,7 @@ textarea {
 }
 
 .button {
-	background: #aa905c;
+	background-color: #AB8A62;
 	color: white;
 	border-style: none;
 	height: 40px;
@@ -48,13 +129,17 @@ textarea {
 }
 
 .flaticon-envelope, .flaticon-call, .flaticon-location-pin {
-    color: #aa905c;
+    color: #AB8A62;
     font-size: 15px;
 }
 
 .color {
-    background-color: rgb(49, 49, 49);
+    background-color: rgb(38, 38, 38);
     border: none;
     border-bottom: 1px rgba(80, 79, 79, 0.3) solid;
     color: grey;
+}
+
+#pinlogo, #envelopelogo, #calllogo {
+    font-size: 28px;
 }
