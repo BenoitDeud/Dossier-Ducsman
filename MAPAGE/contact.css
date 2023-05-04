@@ -128,3 +128,100 @@ textarea {
 #pinlogo, #envelopelogo, #calllogo {
     font-size: 28px;
 }
+
+.oapropos {
+  color: white;
+  margin-left: 28%;
+  margin-top: 7%;
+  font-family: "themify";
+  font-size: 20px;
+}
+
+.onlyhotel {
+  color: #5c5c5c;
+  margin-left: 28%;
+  font-size: 13px;
+  font-family: "Flaticon";
+}
+
+.contactoa {
+  margin-top: -9%;
+  margin-left: 122vh;
+}
+
+.azor {
+  color: white;
+  font-family: "themify";
+  font-size: 20px;
+}
+
+.avenue {
+  color: #5c5c5c;
+  font-family: "Flaticon";
+}
+
+.phone {
+  color: white;
+  font-family: "Flaticon";
+  margin-left: 5%;
+  font-size: 22px;
+  margin-top: -3.4%;
+}
+
+.flaticon-calls {
+  font-size: 22px;
+  color: white;
+}
+
+.mail {
+  color: white;
+  -webkit-text-decoration: underline #95754a;
+          text-decoration: underline #95754a;
+  font-family: "Flaticon";
+}
+
+/*réseaux sociaux et mentions légales*/
+.ti-instagram {
+  color: white;
+}
+
+.ti-twitter {
+  color: white;
+  padding-left: 10px;
+}
+
+.ti-youtube {
+  color: white;
+  padding-left: 10px;
+}
+
+.ti-facebook {
+  color: white;
+  padding-left: 10px;
+}
+
+.ti-pinterest {
+  color: white;
+  padding-left: 10px;
+}
+
+.mention {
+  width: 700px;
+  height: 3.5%;
+  background-color: rgb(38, 38, 38);
+  text-align: center;
+  font-size: 10px;
+  margin-left: 28%;
+  margin-top: 7%;
+  font-family: "Flaticon";
+}
+
+.condition {
+  margin-left: 5%;
+  color: white;
+  margin-top: 5%;
+}
+
+.copyright {
+  color: #5c5c5c;
+}/*# sourceMappingURL=mainb.css.map */

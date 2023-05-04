@@ -26,8 +26,6 @@ body a {
 a:hover {
   color: #aa8453;
 }
-
-/* Header benoit
 .header1 {
   background-color: #1b1b1b;
   color: #aa8453;
@@ -39,6 +37,8 @@ a:hover {
   width: 15rem;
   padding-right: 2rem;
   position: fixed;
+}
+
   /* class header */
   /* div2 */
 
