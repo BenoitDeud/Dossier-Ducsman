@@ -18,23 +18,8 @@ body a {
   a:hover {
     color: #aa8453;
   }
-  
-  /* Header benoit
-  .header1 {
-    background-color: #1b1b1b;
-    color: #aa8453;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding-top: 3rem;
-    padding-left: 3rem;
-    width: 15rem;
-    padding-right: 2rem;
-    position: fixed;
-  }*/
-  
-    /*header Amina*/
-    .header1 {
+
+    .header2 {
       background-color: #1b1b1b;
       color: #aa8453;
       font-family: 'PT Sans Narrow', sans-serif;
@@ -54,27 +39,27 @@ body a {
     /* class header */
     /* div2 */
   
-  .header1 p {
+  .header2 p {
     color: white;
   }
-  .header1 .liste {
+  .header2 .liste {
     color: #676767;
     line-height: 30px;
   }
-  .header1 .left2 {
+  .header2 .left2 {
     display: flex;
     flex-direction: row;
   }
-  .header1 .left2 .left21 {
+  .header2 .left2 .left21 {
     order: 1;
   }
-  .header1 .left2 .left21 i {
+  .header2 .left2 .left21 i {
     font-size: 60px;
   }
-  .header1 .left2 .left22 {
+  .header2 .left2 .left22 {
     order: 2;
   }
-  .header1 .left2 .num {
+  .header2 .left2 .num {
     color: #aa8453;
     font-size: 20px;
   }
