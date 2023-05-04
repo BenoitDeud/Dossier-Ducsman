@@ -1,10 +1,75 @@
 body {
-    background-color: rgb(49, 49, 49);
+    font-family: 'PT Sans Narrow', sans-serif;
+    background-color: rgb(38, 38, 38);
     font-size: 15px;
     color: rgba(122, 122, 122, 0.7);
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-right: 10%;
+    font-family: "themify";
+    font-weight: normal;
+    font-style: normal;
+    font-family: "Flaticon";
 }
+
+body a {
+    color: #676767;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #aa8453;
+  }
+
+    .header2 {
+      background-color: #1b1b1b;
+      color: #aa8453;
+      font-family: 'PT Sans Narrow', sans-serif;
+      font-size: 12px;
+      display: flex;
+      flex-direction: column;
+      padding-top: 2%;
+      padding-left: 30px;
+      padding-bottom: 50%;
+      width: 12%;
+      padding-right: 2%;
+      position: fixed;
+      margin-top: -10px;
+  }
+  
+  
+    /* class header */
+    /* div2 */
+  
+  .header2 p {
+    color: white;
+  }
+  .header2 .liste {
+    color: #676767;
+    line-height: 30px;
+  }
+  .header2 .left2 {
+    display: flex;
+    flex-direction: row;
+  }
+  .header2 .left2 .left21 {
+    order: 1;
+  }
+  .header2 .left2 .left21 i {
+    font-size: 60px;
+  }
+  .header2 .left2 .left22 {
+    order: 2;
+  }
+  .header2 .left2 .num {
+    color: #aa8453;
+    font-size: 20px;
+  }
+  
+  /* SLIDER */
+  #slider .slider2 {
+    height: 50rem;
+    width: 87.5rem;
+    margin-left: 20rem;
+  }
 
 .row {
     display: flex;
@@ -13,23 +78,24 @@ body {
     align-items: center;
     width: auto;
     height: 25em;
-    padding: 30px;
+    padding-left: 22%;
     margin: auto;
     gap: 10%;
-    /* background-color: antiquewhite; */
+    /*background-color: antiquewhite;*/
 }
 
 h1 {
     font-size: 20px;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgb(255, 255, 255);
 }
 
 .maps {
+    padding-left: 22%;
     text-align: center;
 }
 
 .apropos {
-    width: 20em;
+    width: 40em;
 }
 
 textarea {
@@ -39,7 +105,7 @@ textarea {
 }
 
 .button {
-	background: #aa905c;
+	background-color: #AB8A62;
 	color: white;
 	border-style: none;
 	height: 40px;
@@ -48,13 +114,114 @@ textarea {
 }
 
 .flaticon-envelope, .flaticon-call, .flaticon-location-pin {
-    color: #aa905c;
+    color: #AB8A62;
     font-size: 15px;
 }
 
 .color {
-    background-color: rgb(49, 49, 49);
+    background-color: rgb(38, 38, 38);
     border: none;
     border-bottom: 1px rgba(80, 79, 79, 0.3) solid;
     color: grey;
 }
+
+#pinlogo, #envelopelogo, #calllogo {
+    font-size: 28px;
+}
+
+.oapropos {
+  color: white;
+  margin-left: 28%;
+  margin-top: 7%;
+  font-family: "themify";
+  font-size: 20px;
+}
+
+.onlyhotel {
+  color: #5c5c5c;
+  margin-left: 28%;
+  font-size: 13px;
+  font-family: "Flaticon";
+}
+
+.contactoa {
+  margin-top: -9%;
+  margin-left: 122vh;
+}
+
+.azor {
+  color: white;
+  font-family: "themify";
+  font-size: 20px;
+}
+
+.avenue {
+  color: #5c5c5c;
+  font-family: "Flaticon";
+}
+
+.phone {
+  color: white;
+  font-family: "Flaticon";
+  margin-left: 5%;
+  font-size: 22px;
+  margin-top: -3.4%;
+}
+
+.flaticon-calls {
+  font-size: 22px;
+  color: white;
+}
+
+.mail {
+  color: white;
+  -webkit-text-decoration: underline #95754a;
+          text-decoration: underline #95754a;
+  font-family: "Flaticon";
+}
+
+/*réseaux sociaux et mentions légales*/
+.ti-instagram {
+  color: white;
+}
+
+.ti-twitter {
+  color: white;
+  padding-left: 10px;
+}
+
+.ti-youtube {
+  color: white;
+  padding-left: 10px;
+}
+
+.ti-facebook {
+  color: white;
+  padding-left: 10px;
+}
+
+.ti-pinterest {
+  color: white;
+  padding-left: 10px;
+}
+
+.mention {
+  width: 700px;
+  height: 3.5%;
+  background-color: rgb(38, 38, 38);
+  text-align: center;
+  font-size: 10px;
+  margin-left: 28%;
+  margin-top: 7%;
+  font-family: "Flaticon";
+}
+
+.condition {
+  margin-left: 5%;
+  color: white;
+  margin-top: 5%;
+}
+
+.copyright {
+  color: #5c5c5c;
+}/*# sourceMappingURL=mainb.css.map */
