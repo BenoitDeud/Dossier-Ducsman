@@ -7,5 +7,5 @@ function ChangeSlide(sens) {
         numero = slide.length - 1;
     if (numero > slide.length - 1)
         numero = 0;
-    document.getElementById("slider2").src = slider2[numero];
+    document.getElementById("slider2").src = slide[Number];
 }
