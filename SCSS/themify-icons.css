@@ -55,6 +55,9 @@
 .ti-star:before {
 	content: "\e60a";
 }
+.ti-star2:before {
+	content: "\e60a";
+}
 .ti-spray:before {
 	content: "\e60b";
 }
