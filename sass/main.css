@@ -403,6 +403,10 @@ p {
   color: #676767;
 }
 
+header nav a.activeElie {
+  color: #aa8453;
+}
+
 /* menu burger */
 .menuBurger {
   display: none;
