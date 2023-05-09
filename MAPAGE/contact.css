@@ -1,4 +1,4 @@
-body {
+.bodycontact {
     font-family: 'PT Sans Narrow', sans-serif;
     background-color: rgb(38, 38, 38);
     font-size: 15px;
@@ -10,11 +10,6 @@ body {
     font-family: "Flaticon";
 }
 
-body a {
-    color: #676767;
-    text-decoration: none;
-  }
-  
   a:hover {
    color: #AB8A62;
   }
@@ -33,6 +28,15 @@ body a {
       padding-right: 2%;
       position: fixed;
       margin-top: -10px;
+  }
+
+  .header2 a {
+    color: #676767;
+    text-decoration: none;
+  }
+  
+  .header2 .contact {
+    color: #AB8A62
   }
 
   .header2 .headertitle, .headercit, .etoile {
@@ -60,9 +64,7 @@ body a {
     margin-bottom: 25px;
   }
 
-  .contact {
-    color: #AB8A62
-  }
+  
 
   .header2 .left2 {
     display: flex;
@@ -76,6 +78,7 @@ body a {
   .header2 .left2 .left21 i {
     font-size: 30px;
     margin-right: 10px;
+    color: #AB8A62;
   }
 
   .header2 .left2 .left22 {
@@ -111,23 +114,25 @@ body a {
     gap: 20%;
 }
 
-.contactleft {
-  margin-top: -60px;
-}
-
-h1 {
+.title {
     font-size: 20px;
     color: rgb(255, 255, 255);
+    padding-bottom: 10px;
+}
+
+.paragraphe {
+  padding-bottom: 10px;
 }
 
 .info, .email, .adresse {
-  margin-left: 50px;
-  margin-top: -30px;
-  padding-left: -50px;
+  margin-left: 40px;
+  margin-top: -35px;
+  line-height: 20px;
 }
 
 .number, .mail1 {
   color:#AB8A62;
+  padding-bottom: 13px;
 }
 
 .maps {
@@ -142,8 +147,10 @@ h1 {
     width: 35em;
 }
 
-.contactright {
-  margin-right: 15em;
+.contactright a {
+  margin-right: 25em;
+  color: #676767;
+  text-decoration: underline #AB8A62;
 }
 
 textarea {
@@ -177,7 +184,8 @@ textarea {
 }
 
 .flaticon-call {
-  font-size: 15px;
+  font-size: 17px;
+  color: white;
 }
 
 /*réseaux sociaux et mentions légales*/

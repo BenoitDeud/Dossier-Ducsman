@@ -350,7 +350,7 @@ footer.elie span {
   color: rgba(138, 138, 138, 0.808);
 }
 
-body {
+.bodycontact {
   font-family: "PT Sans Narrow", sans-serif;
   background-color: rgb(38, 38, 38);
   font-size: 15px;
@@ -360,11 +360,6 @@ body {
   font-weight: normal;
   font-style: normal;
   font-family: "Flaticon";
-}
-
-body a {
-  color: #676767;
-  text-decoration: none;
 }
 
 a:hover {
@@ -384,23 +379,25 @@ a:hover {
   gap: 20%;
 }
 
-.contactleft {
-  margin-top: -60px;
-}
-
 h1 {
   font-size: 20px;
   color: rgb(255, 255, 255);
+  padding-bottom: 10px;
+}
+
+p {
+  padding-bottom: 10px;
 }
 
 .info, .email, .adresse {
-  margin-left: 50px;
-  margin-top: -30px;
-  padding-left: -50px;
+  margin-left: 40px;
+  margin-top: -35px;
+  line-height: 20px;
 }
 
 .number, .mail1 {
   color: #AB8A62;
+  padding-bottom: 13px;
 }
 
 .maps {
@@ -415,8 +412,11 @@ h1 {
   width: 35em;
 }
 
-.contactright {
-  margin-right: 15em;
+.contactright a {
+  margin-right: 25em;
+  color: #676767;
+  text-decoration: underline #AB8A62;
+  text-decoration: underline #AB8A62;
 }
 
 textarea {
@@ -450,7 +450,8 @@ textarea {
 }
 
 .flaticon-call {
-  font-size: 15px;
+  font-size: 17px;
+  color: white;
 }
 
 /*réseaux sociaux et mentions légales*/
