@@ -23,7 +23,6 @@ body a {
     .header2 {
       background-color: #1b1b1b;
       color: #AB8A62;
-      font-family: 'PT Sans Narrow', sans-serif;
       font-size: 12px;
       display: flex;
       flex-direction: column;
@@ -36,13 +35,19 @@ body a {
       margin-top: -10px;
   }
 
-  .headertitle, .headercit, .ti-star {
+  .header2 .headertitle, .headercit, .etoile {
     align-items: center;
-    text-align: justify;
+    text-align: center;
     color: #AB8A62;
+    margin: 0px;
+    line-height: 22px;
   }
 
-  .headercit, .headerinfo {
+  .headercit {
+    color: white;
+  }
+  
+  .headerinfo {
     color: rgba(122, 122, 122, 0.7);
   }
 
@@ -84,6 +89,10 @@ body a {
     width: 87.5rem;
     margin-left: 20rem;
   }
+  
+  .nomheader {
+    font-weight: 100px;
+  }
 
   /*main*/
 .row {
@@ -93,10 +102,14 @@ body a {
     align-items: center;
     width: 78%;
     height: 25em;
-    padding-left: 20%;
+    padding-left: 25%;
     margin: auto;
     gap: 20%;
 
+}
+
+.contactleft {
+  margin-top: -60px;
 }
 
 h1 {
@@ -104,15 +117,26 @@ h1 {
     color: rgb(255, 255, 255);
 }
 
+.info, .email, .adresse {
+  margin-left: 50px;
+  margin-top: -30px;
+  padding-left: -50px;
+}
+
+.number, .mail1 {
+  color:#AB8A62;
+}
+
 .maps {
   padding-top: 2%;
   padding-left: 25%;
   filter: grayscale(100%);
   margin-top: 5em;
+  padding-right: 50%;
 }
 
 .apropos {
-    width: 30em;
+    width: 35em;
 }
 
 .contactright {
@@ -134,11 +158,6 @@ textarea {
   margin-top: 20px;
 }
 
-.flaticon-envelope, .flaticon-call, .flaticon-location-pin {
-    color: #AB8A62;
-    font-size: 15px;
-}
-
 .color {
     background-color: rgb(38, 38, 38);
     border: none;
@@ -151,6 +170,11 @@ textarea {
 
 #pinlogo, #envelopelogo, #calllogo {
     font-size: 28px;
+    color: #AB8A62;
+}
+
+.flaticon-call {
+  font-size: 15px;
 }
 
 /*réseaux sociaux et mentions légales*/
