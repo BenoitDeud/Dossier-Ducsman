@@ -49,6 +49,7 @@ body a {
   
   .headerinfo {
     color: rgba(122, 122, 122, 0.7);
+    padding-bottom: -150px;
   }
 
   .liste {
@@ -56,9 +57,10 @@ body a {
     line-height: 30px;
     padding-top: 30px;
     text-align: left;
+    margin-bottom: 25px;
   }
 
-  .list .contact {
+  .contact {
     color: #AB8A62
   }
 
@@ -72,16 +74,18 @@ body a {
   }
 
   .header2 .left2 .left21 i {
-    font-size: 60px;
+    font-size: 30px;
+    margin-right: 10px;
   }
 
   .header2 .left2 .left22 {
     order: 2;
   }
 
-  .header2 .left2 .num {
+  .header2 .left2 .num  {
     color: #AB8A62;
-    font-size: 20px;
+    font-size: 15px;
+    margin: 0px;
   }
   
   #slider .slider2 {
