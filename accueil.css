@@ -55,47 +55,57 @@ a:hover {
     /* div2 */
 }
 
-.header1 p {
+p {
     color: white;
 }
 
-.header1 .liste {
+.liste {
     color: #676767;
     line-height: 50px;
 }
 
-.header1 .left2 {
+.left2 {
     display: flex;
     flex-direction: row;
 }
 
-.header1 .left2 .left21 {
+.left2 .left21 {
     order: 1;
 }
 
-.header1 .left2 .left21 i {
+.left2 .left21 i {
     font-size: 40px;
     margin-left: -30%;
     margin-top: 1500px;
 }
 
-.header1 .left2 .left22 {
+.left2 .left22 {
     order: 2;
     width: 80%;
     line-height: 60%;
 }
 
-.header1 .left2 .num {
+.left2 .num {
     color: #aa8453;
     font-size: 18px;
     margin-left: 7%;
     line-height: 60%;
 }
 
-.header1 .left2 .info {
+.left2 .info {
     font-size: 15px;
     margin-left: 7%;
     color: #676767;
+}
+
+
+/* menu burger */
+.menuBurger {
+    display: none;
+}
+
+.header2 {
+    display: none;
 }
 
 
@@ -166,7 +176,7 @@ main {
     background-color: #242424;
     padding: 30px 100px 100px;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     max-width: 100vw;
     gap: 20px;
     position: relative;
@@ -195,8 +205,6 @@ main {
     padding: 30px 100px 100px;
     background-color: #1d1d1d;
     color: white;
-
-
 }
 
 
@@ -303,7 +311,7 @@ main {
     text-align: center;
     padding: 20px;
     background-color: #aa8453;
-    width: 30%;
+    width: 150px;
     transition: .2s;
 }
 
@@ -394,4 +402,151 @@ footer {
 
 footer span {
     color: rgba(138, 138, 138, 0.808);
+}
+
+@media screen and (max-width: 800px) {
+    .header1 {
+        display: none;
+    }
+
+    .menuBurger {
+        display: block;
+        width: 75px;
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        z-index: 2;
+    }
+
+    .header2 {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        margin-left: -100%;
+        transition: .5s;
+    }
+
+    .header2.mobile-menu {
+        background-color: #1b1b1b;
+        padding: 300px 50px 100vh 100px;
+        position: fixed;
+        display: block;
+        margin-left: 0;
+    }
+
+
+
+
+    main {
+        padding-left: 0rem;
+    }
+
+    .titreEnTete {
+        top: 25%;
+    }
+
+    .Titre2 {
+        font-size: 55px;
+    }
+
+    .bouttonEncadré {
+        top: 75%;
+    }
+
+    /* L'expérience du luxe */
+
+    .exptexte {
+        width: 100%;
+    }
+
+    .experience {
+        flex-flow: column wrap;
+        gap: 100px;
+    }
+
+    .experience img {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* CHAMBRES & SUITES */
+
+    .gridChambresSuites {
+        display: flex;
+        flex-flow: row nowrap;
+        max-width: 600px;
+        overflow: auto;
+    }
+
+    .gridChambresSuites::-webkit-scrollbar{width: 0;}
+
+    .row1 {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+    .row2 {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+    .imgChambresSuiteslndscp {
+        width: 500px;
+        height: 350px;
+    }
+
+    /* Découverte */
+
+    .decouverte {
+        gap: 20px;
+    }
+
+    .decRow {
+        flex-flow: column wrap;
+    }
+
+    .reverse {
+        flex-flow: column-reverse;
+    }
+
+    .decRow img {
+        width: 100%;
+    }
+
+
+    /* Options */
+
+    .FlexOptions {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .BoxOpt1 {
+        border: 1px solid rgb(71, 71, 71);
+        padding: 50px 30px;
+    }
+
+    /* Services en + */
+
+    .gridServices {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    /* .gridServices {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    } */
+
+    .BoxServices {
+        width: 130px;
+        height: 180px;
+    }
 }
