@@ -191,3 +191,65 @@ button {
     color: #676767;
     text-decoration: none;
 }
+
+.wifi{
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 10px;
+color: #aa8453;
+}
+
+.pool{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  color: #aa8453;
+  }
+
+.manger{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  color: #aa8453;
+}
+
+.paper{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  color: #aa8453;
+}
+
+.bath{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  color: #aa8453;
+}
+
+.man{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  color: #aa8453;
+}
+
+.oui{
+  display: flex;
+  flex-direction: column;
+  color: #aa8453;
+}
+
+.like{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  color: #aa8453;
+}
