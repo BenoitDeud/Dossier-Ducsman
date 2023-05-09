@@ -21,6 +21,23 @@ main.mainAccueil {
   padding-left: 20rem;
 }
 
+h3.telContact {
+  color: white;
+}
+
+.telpropos {
+  display: flex;
+  color: white;
+  gap: 10px;
+}
+.telpropos i {
+  color: white;
+}
+
+.rompiche {
+  color: white;
+}
+
 body.accueil {
   background-color: #1b1b1b;
   max-width: 2000px;
@@ -69,11 +86,13 @@ body.accueil a :hover {
   top: 35%;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
+  color: white;
 }
 
 .Titre2 {
   top: 50%;
   font-size: 75px;
+  color: white;
 }
 
 .bouttonEncadré {
@@ -82,6 +101,7 @@ body.accueil a :hover {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 11px;
   transition: 0.2s;
+  color: white;
 }
 .bouttonEncadré :hover {
   color: black;
@@ -350,6 +370,144 @@ footer.elie span {
   color: rgba(138, 138, 138, 0.808);
 }
 
+body.chambres {
+  background-color: #252525;
+  color: rgba(255, 253, 253, 0.986);
+  border: 50px;
+}
+
+main.Chambresmain p {
+  color: #727272;
+}
+
+.imagetitre {
+  width: 100%;
+  display: grid;
+}
+
+.enteteChambre {
+  margin-left: 320px;
+}
+
+.oui {
+  line-height: 35px;
+}
+
+.like,
+.man {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.like span,
+.man span {
+  color: #aa8453;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 150px 150px;
+  justify-content: left;
+  margin-left: 380px;
+}
+
+.grid .checki {
+  width: 250px;
+}
+
+.grid .checko {
+  margin-left: 200px;
+  width: 250px;
+}
+
+.box {
+  margin-top: 50px;
+  margin-left: 380px;
+  margin-right: 300px;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  justify-content: flex-start;
+}
+
+.box .ducs {
+  color: #aa8453;
+}
+
+.box .lorem {
+  width: 900px;
+  font-size: 15px;
+}
+
+.box1 {
+  margin-left: 380px;
+}
+
+.box2 {
+  margin-left: 380px;
+}
+
+.box3 {
+  margin-left: 380px;
+}
+
+.box4 {
+  margin-left: 380px;
+}
+
+.box5 {
+  margin-top: 200px;
+  margin-left: 380px;
+  margin-right: 300px;
+  display: flex;
+  flex-direction: row;
+  gap: 300px;
+  justify-content: flex-start;
+}
+
+.chambrespropos {
+  margin-left: 300px;
+  margin-top: 150px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer span {
+  color: white;
+}
+
+button {
+  padding: 10px 15px 10px;
+  color: white;
+  background-color: rgba(117, 115, 115, 0.877);
+}
+
+.titre {
+  position: relative;
+  bottom: 500px;
+  color: rgb(2, 2, 2);
+}
+
+.imagetitre {
+  opacity: 0.7;
+}
+
+.h1 {
+  display: block;
+  font-size: 2em;
+  -webkit-margin-before: 0.67em;
+  margin-block-start: 0.67em;
+  -webkit-margin-after: 0.67em;
+  margin-block-end: 0.67em;
+  -webkit-margin-start: 0px;
+  margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
 .bodycontact {
   font-family: "PT Sans Narrow", sans-serif;
   background-color: rgb(38, 38, 38);
@@ -371,9 +529,10 @@ a:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
+  align-items: self-start;
   width: 78%;
   height: 25em;
+  padding-top: 75px;
   padding-left: 25%;
   margin: auto;
   gap: 20%;
@@ -464,6 +623,13 @@ textarea {
   padding-left: 10px;
 }
 
+.proposContact {
+  position: relative;
+  left: 280px;
+  top: 50px;
+  z-index: -1;
+}
+
 .mention {
   width: 700px;
   height: 3.5%;
@@ -505,9 +671,12 @@ textarea {
   color: #aa8453;
 }
 
-/* p {
-  color: rgb(101, 101, 101);
-} */
+.titreHeader {
+  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
 
 .liste {
   color: #676767;
@@ -549,7 +718,16 @@ textarea {
   color: #676767;
 }
 
+header nav a {
+  text-decoration: none;
+  color: #676767;
+}
+
 header nav a.activeElie {
+  color: #aa8453;
+}
+
+header .left2 i {
   color: #aa8453;
 }
 
@@ -558,85 +736,7 @@ header nav a.activeElie {
   display: none;
 }
 
-.header2 {
-  background-color: #1b1b1b;
-  color: #AB8A62;
-  font-size: 12px;
-  display: flex;
-  flex-direction: column;
-  padding-top: 2%;
-  padding-left: 30px;
-  padding-bottom: 50%;
-  width: 12%;
-  padding-right: 2%;
-  position: fixed;
-  margin-top: -10px;
-}
-
-.header2 .headertitle, .headercit, .etoile {
-  align-items: center;
-  text-align: center;
-  color: #AB8A62;
-  margin: 0px;
-  line-height: 22px;
-}
-
-.headercit {
-  color: white;
-}
-
-.headerinfo {
-  color: rgba(122, 122, 122, 0.7);
-  padding-bottom: -150px;
-}
-
-.liste {
-  color: #676767;
-  line-height: 30px;
-  padding-top: 30px;
-  text-align: left;
-  margin-bottom: 25px;
-}
-
-.contact {
-  color: #AB8A62;
-}
-
-.header2 .left2 {
-  display: flex;
-  flex-direction: row;
-}
-
-.header2 .left2 .left21 {
-  order: 1;
-}
-
-.header2 .left2 .left21 i {
-  font-size: 30px;
-  margin-right: 10px;
-}
-
-.header2 .left2 .left22 {
-  order: 2;
-}
-
-.header2 .left2 .num {
-  color: #AB8A62;
-  font-size: 15px;
-  margin: 0px;
-}
-
-#slider .slider2 {
-  height: 50rem;
-  width: 87.5rem;
-  margin-left: 20rem;
-}
-
-.nomheader {
-  font-weight: 100px;
-}
-
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   img.menuBurger {
     display: block;
     width: 60px;
@@ -774,4 +874,21 @@ header nav a.activeElie {
 
 .socialNetwork i {
   font-size: 20px;
+  color: white;
+}
+
+.flaticon-call {
+  color: #aa8453;
+}
+
+.telpropos i {
+  color: white;
+  font-size: 17px;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 200px 100px;
+  grid-template-rows: 50px 50px 50px;
+  gap: 20px;
 }/*# sourceMappingURL=main.css.map */
