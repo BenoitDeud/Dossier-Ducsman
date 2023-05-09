@@ -47,13 +47,14 @@ a:hover {
   background-color: #1b1b1b;
   color: #aa8453;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   flex-direction: column;
   padding-top: 3rem;
   padding-left: 3rem;
   width: 15rem;
   padding-right: 2rem;
   position: fixed;
+  height: 100vh;
   /* class header */
   /* div2 */
 }
@@ -72,20 +73,31 @@ a:hover {
   order: 1;
 }
 .header1 .left2 .left21 i {
-  font-size: 60px;
+  font-size: 40px;
+  margin-left: -30%;
+  margin-top: 1500px;
 }
 .header1 .left2 .left22 {
   order: 2;
+  width: 80%;
+  line-height: 60%;
 }
 .header1 .left2 .num {
   color: #aa8453;
-  font-size: 20px;
+  font-size: 18px;
+  margin-left: 7%;
+  line-height: 60%;
+}
+.header1 .left2 .info {
+  font-size: 15px;
+  margin-left: 7%;
+  color: #676767;
 }
 
 /* SLIDER */
 #slider .slider2 {
-  height: 50rem;
-  width: 87.5rem;
+  height: 650px;
+  width: 79.2%;
   margin-left: 20rem;
 }
 
@@ -93,6 +105,34 @@ a:hover {
   position: absolute;
   top: 30px;
   left: 300px;
+}
+
+.surTitre {
+  position: relative;
+  margin-top: 180px;
+  margin-left: 350px;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+
+.grosTitre {
+  position: relative;
+  margin-top: 25px;
+  margin-left: 350px;
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  letter-spacing: 10px;
+}
+
+.csui {
+  border: solid white 1px;
+  padding: 7px;
+  color: white;
+  width: 20%;
+  padding-left: 2%;
+  margin-left: 510px;
 }
 
 /* cadre */
@@ -110,17 +150,21 @@ a:hover {
   padding-right: 2em;
   margin-right: 8em;
   line-height: 20px;
+  width: 67%;
   /* picture du premier cadre */
 }
 .cadre .exp1 {
   color: #aa8453;
+  margin-left: 10%;
 }
 .cadre .exp2 {
   color: white;
+  margin-left: 10%;
 }
 .cadre .exp3 {
   color: #676767;
   padding-right: 0em;
+  margin-left: 10%;
 }
 .cadre .pict1 {
   width: 15em;
@@ -148,12 +192,15 @@ a:hover {
 }
 .cadre2 .exp1 {
   color: #aa8453;
+  margin-left: 3%;
 }
 .cadre2 .exp2 {
   color: white;
+  margin-left: 3%;
 }
 .cadre2 .cadre23 {
   display: flex;
+  align-items: left;
   flex-direction: column;
   justify-content: space-between;
   gap: 2em;
@@ -163,45 +210,96 @@ a:hover {
   flex-direction: row;
 }
 .cadre2 .cadre23 .pict3 {
-  margin-top: 6%;
+  margin-top: -1.7%;
   float: left;
   order: 1/3;
   width: 25%;
   height: 30em;
   padding-right: 2em;
 }
-.cadre2 .cadre23 .fig1 {
-  bottom: 100px;
-  position: relative;
+.cadre2 .cadre23 .fignuit1 {
+  margin-top: 360px;
+  position: absolute;
   color: white;
-  left: 50px;
+  margin-left: 2.2%;
+  font-size: 20px;
 }
-.cadre2 .cadre23 .fig2 {
-  bottom: 75px;
-  position: relative;
+.cadre2 .cadre23 .figjunior {
+  position: absolute;
   color: white;
-  left: 50px;
+  margin-top: 400px;
+  margin-left: 2%;
+  font-size: 25px;
 }
 .cadre2 .cadre23 .res {
-  border: solid white 2px;
+  border: solid white 1px;
+  padding: 7px;
   color: white;
   transform: rotate(-90deg);
-  position: relative;
+  position: absolute;
+  margin-top: 2%;
+  margin-left: 13%;
 }
 .cadre2 .cadre23 .pict4 {
   order: 2/3;
   height: 30em;
   width: 25%;
   padding-right: 2em;
-  padding-top: 10px;
+  margin-top: -1.8%;
+}
+.cadre2 .cadre23 .figfam {
+  position: absolute;
+  color: white;
+  margin-top: -4.1%;
+  margin-left: 22.8%;
+  font-size: 25px;
+}
+.cadre2 .cadre23 .fignuit2 {
+  margin-top: -100px;
+  position: absolute;
+  color: white;
+  margin-left: 22.8%;
+  font-size: 20px;
+}
+.cadre2 .cadre23 .res1 {
+  border: solid white 1px;
+  padding: 7px;
+  color: white;
+  transform: rotate(-90deg);
+  position: absolute;
+  margin-top: -28.5%;
+  margin-left: 33.5%;
 }
 .cadre2 .cadre23 .pict5 {
   float: right;
   order: 3/3;
   height: 30em;
-  margin-right: 20%;
-  margin-top: -48%;
+  margin-right: 19.5%;
+  margin-top: -44.7%;
   width: 25%;
+}
+.cadre2 .cadre23 .figdouble {
+  position: absolute;
+  color: white;
+  margin-top: -5.3%;
+  margin-left: 43%;
+  font-size: 25px;
+}
+.cadre2 .cadre23 .fignuit3 {
+  margin-top: -7.5%;
+  position: absolute;
+  color: white;
+  margin-left: 43%;
+  font-size: 20px;
+}
+.cadre2 .cadre23 .res3 {
+  border: solid white 1px;
+  padding: 7px;
+  color: white;
+  transform: rotate(-90deg);
+  position: absolute;
+  margin-top: -29.5%;
+  margin-left: 53.7%;
 }
 .cadre2 .cadre23 .pict41 {
   display: flex;
@@ -210,14 +308,61 @@ a:hover {
 .cadre2 .cadre23 .pict41 .pict6 {
   order: 1/2;
   height: 20em;
-  width: 37.6em;
+  width: 36.2%;
   padding-right: 2em;
+  margin-left: 3.5%;
+}
+.cadre2 .cadre23 .pict41 .figdeluxe {
+  position: absolute;
+  color: white;
+  margin-top: 250px;
+  margin-left: 4.2%;
+  font-size: 25px;
+}
+.cadre2 .cadre23 .pict41 .fignuit4 {
+  margin-top: 205px;
+  position: absolute;
+  color: white;
+  margin-left: 4.2%;
+  font-size: 20px;
+}
+.cadre2 .cadre23 .pict41 .res4 {
+  border: solid white 1px;
+  padding: 7px;
+  color: white;
+  transform: rotate(-90deg);
+  position: absolute;
+  margin-top: 3%;
+  margin-left: -7.5%;
 }
 .cadre2 .cadre23 .pict41 .pict7 {
   order: 2/2;
   height: 20em;
-  width: 37.6em;
+  width: 36.2%;
   padding-right: 2em;
+}
+.cadre2 .cadre23 .pict41 .figsuperior {
+  position: absolute;
+  color: white;
+  margin-top: 250px;
+  margin-left: 35%;
+  font-size: 25px;
+}
+.cadre2 .cadre23 .pict41 .fignuit5 {
+  margin-top: 205px;
+  position: absolute;
+  color: white;
+  margin-left: 35%;
+  font-size: 20px;
+}
+.cadre2 .cadre23 .pict41 .res5 {
+  border: solid white 1px;
+  padding: 7px;
+  color: white;
+  transform: rotate(-90deg);
+  position: absolute;
+  margin-top: 3%;
+  margin-left: -7.5%;
 }
 
 .oabody {
@@ -230,15 +375,15 @@ a:hover {
   display: flex;
   flex-direction: column;
   border: 0px solid #2b2b2b;
-  width: 700px;
-  height: 930px;
+  width: 902px;
+  height: 1195px;
   background-color: #2b2b2b;
-  margin-left: 28%;
+  margin-left: 29.5%;
 }
 
 /*flexbox epanouissement decouverte experience*/
 img {
-  width: 50%;
+  width: 61%;
 }
 
 .acceuilresto {
@@ -246,24 +391,29 @@ img {
 }
 
 .acceuilbe {
-  float: right;
+  margin-left: 61%;
+  margin-top: -0.5%;
 }
 
 .fitnessclub {
-  float: left;
+  margin-top: -0.8%;
 }
 
 .piscine {
-  float: right;
+  margin-left: 61%;
+  margin-top: -0.2%;
 }
 
 .decouverte {
   color: #95754a;
-  margin-left: 53%;
+  margin-left: 63%;
   font-family: "themify";
+  margin-top: 7%;
 }
 
 .experience {
+  float: left;
+  margin-top: -33.5%;
   color: #95754a;
   margin-left: 2.3%;
   font-family: "themify";
@@ -271,19 +421,21 @@ img {
 
 .epanouissement {
   color: #95754a;
-  margin-left: 53%;
+  margin-left: 63%;
   font-family: "themify";
+  margin-top: -35%;
 }
 
 .experience2 {
   color: #95754a;
   margin-left: 2.3%;
   font-family: "themify";
+  margin-top: -35%;
 }
 
 .restauranth1 {
   color: white;
-  margin-left: 53%;
+  margin-left: 63%;
   font-family: "themify";
   margin-top: -1.5%;
 }
@@ -293,12 +445,12 @@ img {
   text-align: left;
   margin-left: 2.3%;
   font-family: "themify";
-  margin-top: -7%;
+  margin-top: -35%;
 }
 
 .fitness1 {
   color: white;
-  margin-left: 53%;
+  margin-left: 63%;
   font-family: "themify";
   margin-top: -1.5%;
 }
@@ -312,29 +464,29 @@ img {
 
 .restop1 {
   color: #5c5c5c;
-  margin-left: 53%;
-  font-size: 13px;
+  margin-left: 63%;
+  font-size: 15px;
   font-family: "Flaticon";
 }
 
 .bienetre1 {
   color: #5c5c5c;
   margin-left: 2.3%;
-  font-size: 13px;
+  font-size: 15px;
   font-family: "Flaticon";
 }
 
 .fitness2 {
   color: #5c5c5c;
-  margin-left: 53%;
-  font-size: 13px;
+  margin-left: 63%;
+  font-size: 15px;
   font-family: "Flaticon";
 }
 
 .aquatique2 {
   color: #5c5c5c;
   margin-left: 2.3%;
-  font-size: 13px;
+  font-size: 15px;
   font-family: "Flaticon";
 }
 
@@ -342,9 +494,9 @@ img {
   color: white;
   border: 1px #ac8c64 solid;
   width: 20%;
-  height: 15%;
+  padding: 1%;
   background-color: #ac8c64;
-  margin-left: 370px;
+  margin-left: 63%;
   font-family: "Flaticon";
   font-size: 15px;
 }
@@ -359,6 +511,7 @@ img {
   width: 20%;
   background-color: #ac8c64;
   margin-left: 2.3%;
+  padding: 1%;
 }
 
 .golden3 {
@@ -366,7 +519,8 @@ img {
   border: 1px #ac8c64 solid;
   width: 20%;
   background-color: #ac8c64;
-  margin-left: 53%;
+  margin-left: 63%;
+  padding: 1%;
 }
 
 .golden4 {
@@ -375,6 +529,7 @@ img {
   width: 20%;
   background-color: #ac8c64;
   margin-left: 2.3%;
+  padding: 1%;
 }
 
 .flex-item {
@@ -386,7 +541,7 @@ img {
 .option {
   margin-top: 5%;
   color: white;
-  margin-left: 28%;
+  margin-left: 29.5%;
   font-size: 22px;
   font-family: "themify";
 }
@@ -394,21 +549,21 @@ img {
 .optn1 {
   color: #5c5c5c;
   font-size: 13px;
-  margin-left: 28%;
-  font-size: 13px;
+  margin-left: 29.5%;
+  font-size: 15px;
   font-family: "Flaticon";
 }
 
 .flaticon-call {
   font-size: 30px;
   color: #95754a;
-  margin-left: 28%;
+  margin-left: 29.5%;
 }
 
 .info {
   color: #5c5c5c;
-  font-size: 13px;
-  margin-left: 30.5%;
+  font-size: 15px;
+  margin-left: 32%;
   margin-top: -2%;
   font-size: 13px;
   font-family: "Flaticon";
@@ -418,7 +573,7 @@ img {
   color: #95754a;
   font-size: 17px;
   margin-top: -1%;
-  margin-left: 30.5%;
+  margin-left: 32%;
   font-family: "Flaticon";
 }
 
@@ -428,16 +583,16 @@ img {
   grid-template-columns: 1fr 1fr;
   border: 2px solid #2b2b2b;
   background-color: #2b2b2b;
-  width: 27vh;
-  height: 8.1%;
-  margin-top: -20vh;
-  margin-left: 93vh;
+  width: 32vh;
+  height: 12.1%;
+  margin-top: -22vh;
+  margin-left: 110vh;
 }
 
 .petitdejeuner {
   border: 2px solid #2b2b2b;
   background-color: #2b2b2b;
-  width: 25vh;
+  width: 32vh;
   height: 7%;
   line-height: 20px;
 }
@@ -445,27 +600,28 @@ img {
 .coffre {
   border: 2px solid #2b2b2b;
   background-color: #2b2b2b;
-  margin-left: 15%;
-  width: 27vh;
-  height: 98%;
+  margin-left: 20%;
+  width: 32vh;
+  height: 253px;
   line-height: 20px;
 }
 
 .dej {
   color: white;
   margin-left: 10%;
-  padding-top: 0cm 7%;
+  padding-top: 20%;
   font-family: "themify";
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .nisan {
   color: #95754a;
   font-family: "Flaticon";
+  font-size: 20px;
 }
 
 .gold {
-  font-size: 30px;
+  font-size: 35px;
   color: #95754a;
   font-family: "Flaticon";
 }
@@ -473,14 +629,14 @@ img {
 .deje1 {
   margin-left: 10%;
   color: #5c5c5c;
-  font-size: 12px;
+  font-size: 13px;
   font-family: "Flaticon";
 }
 
 /* flexbox services hotel*/
 .services {
   color: white;
-  margin-left: 28%;
+  margin-left: 29.5%;
   margin-top: 5%;
   font-size: 22px;
   font-family: "themify";
@@ -491,16 +647,16 @@ img {
   flex-direction: column;
   -moz-column-gap: 10px;
        column-gap: 10px;
-  width: 700px;
-  height: 380px;
+  width: 902px;
+  height: 1000px;
   background-color: #222222;
-  margin-left: 28%;
+  margin-left: 29.5%;
 }
 
 .service1 {
   border: 1px solid #2b2b2b;
-  width: 29vh;
-  height: 23vh;
+  width: 36vh;
+  height: 23%;
 }
 .service1 .flaticon-world {
   font-size: 35px;
@@ -524,10 +680,10 @@ img {
 
 .service2 {
   border: 1px solid #2b2b2b;
-  width: 29vh;
-  height: 20vh;
-  margin-left: 34.5%;
-  margin-top: -24.7%;
+  width: 36vh;
+  height: 20%;
+  margin-left: 35%;
+  margin-top: -27.7%;
 }
 .service2 .flaticon-car {
   font-size: 35px;
@@ -537,10 +693,10 @@ img {
 
 .service3 {
   border: 1px solid #2b2b2b;
-  width: 29vh;
-  height: 20vh;
-  margin-left: 68.9%;
-  margin-top: -21.6%;
+  width: 36vh;
+  height: 20%;
+  margin-left: 70.4%;
+  margin-top: -22.3%;
 }
 .service3 .flaticon-bed {
   font-size: 35px;
@@ -550,22 +706,23 @@ img {
 
 .service4 {
   border: 1px solid #2b2b2b;
-  width: 29vh;
-  height: 20vh;
-  margin-top: 7%;
+  width: 36vh;
+  height: 20%;
+  margin-top: 8%;
 }
 .service4 .flaticon-swimming {
   font-size: 35px;
   color: #95754a;
+  padding-top: 2%;
   margin-left: 10px;
 }
 
 .service5 {
   border: 1px solid #2b2b2b;
-  width: 29vh;
-  height: 20vh;
-  margin-left: 34.5%;
-  margin-top: -21.4%;
+  width: 36vh;
+  height: 20%;
+  margin-left: 35%;
+  margin-top: -22.3%;
 }
 .service5 .flaticon-wifi {
   font-size: 35px;
@@ -575,10 +732,10 @@ img {
 
 .service6 {
   border: 1px solid #2b2b2b;
-  width: 29vh;
-  height: 20vh;
-  margin-left: 68.9%;
-  margin-top: -21.5%;
+  width: 36vh;
+  height: 20%;
+  margin-left: 70.4%;
+  margin-top: -22.3%;
 }
 .service6 .flaticon-breakfast {
   font-size: 35px;
@@ -587,30 +744,35 @@ img {
 }
 
 /*contact et a propos de l'hôtel*/
+.aopro {
+  margin-top: -33%;
+}
+
 .oapropos {
   color: white;
-  margin-left: 28%;
+  margin-left: 29.5%;
   margin-top: 7%;
   font-family: "themify";
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .onlyhotel {
   color: #5c5c5c;
-  margin-left: 28%;
-  font-size: 13px;
+  margin-left: 29.5%;
+  font-size: 15px;
   font-family: "Flaticon";
 }
 
 .contactoa {
   margin-top: -9%;
-  margin-left: 122vh;
+  margin-left: 140vh;
+  margin-top: -10.4%;
 }
 
 .azor {
   color: white;
   font-family: "themify";
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .avenue {
@@ -621,9 +783,9 @@ img {
 .phone {
   color: white;
   font-family: "Flaticon";
-  margin-left: 5%;
+  margin-left: 6%;
   font-size: 22px;
-  margin-top: -3.4%;
+  margin-top: -4.5%;
 }
 
 .flaticon-calls {
@@ -665,20 +827,19 @@ img {
 
 .mention {
   border: 2px solid #1e1e1e;
-  width: 700px;
+  width: 90%;
   height: 3.5%;
   background-color: #1e1e1e;
-  text-align: center;
-  font-size: 10px;
-  margin-left: 28%;
+  margin-left: 20%;
   margin-top: 7%;
   font-family: "Flaticon";
 }
 
 .condition {
-  margin-left: 5%;
+  margin-left: -10%;
   color: white;
-  margin-top: 5%;
+  margin-top: 2%;
+  text-align: center;
 }
 
 .copyright {
