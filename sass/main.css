@@ -379,13 +379,13 @@ a:hover {
   gap: 20%;
 }
 
-h1 {
+.title {
   font-size: 20px;
   color: rgb(255, 255, 255);
   padding-bottom: 10px;
 }
 
-p {
+.paragraphe {
   padding-bottom: 10px;
 }
 
@@ -415,8 +415,8 @@ p {
 .contactright a {
   margin-right: 25em;
   color: #676767;
-  text-decoration: underline #AB8A62;
-  text-decoration: underline #AB8A62;
+  -webkit-text-decoration: underline #AB8A62;
+          text-decoration: underline #AB8A62;
 }
 
 textarea {
