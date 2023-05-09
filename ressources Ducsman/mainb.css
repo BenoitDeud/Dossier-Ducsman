@@ -1,5 +1,11 @@
+<<<<<<< HEAD
+/* Body */
+body {
+  background-color: #1b1b1b;
+=======
 @charset "UTF-8";
 @font-face {
+>>>>>>> 7cc89a0a1d8b3b6cc7cc3644cc31bb27d6bb1ece
   font-family: "themify";
   src: url("../fonts/themify.eot");
   src: url("../fonts/themify.eot?#iefix") format("embedded-opentype"), url("../fonts/themify.woff") format("woff"), url("../fonts/themify.ttf") format("truetype"), url("../fonts/themify.svg") format("svg");
@@ -13,11 +19,14 @@
   font-weight: normal;
   font-style: normal;
 }
+<<<<<<< HEAD
+=======
 /* scss background color*/
 /* Body */
 body {
   background-color: #1b1b1b;
 }
+>>>>>>> 7cc89a0a1d8b3b6cc7cc3644cc31bb27d6bb1ece
 body a {
   color: #676767;
   text-decoration: none;
@@ -32,7 +41,11 @@ a:hover {
   background-color: #1b1b1b;
   color: #aa8453;
   display: flex;
+<<<<<<< HEAD
+  justify-content: center;
+=======
   justify-content: left;
+>>>>>>> 7cc89a0a1d8b3b6cc7cc3644cc31bb27d6bb1ece
   flex-direction: column;
   padding-top: 3rem;
   padding-left: 3rem;
@@ -40,9 +53,11 @@ a:hover {
   padding-right: 2rem;
   position: fixed;
   height: 100vh;
-  /* class header */
-  /* div2 */
 }
+
+/* class header */
+/* div2 */
+
 .header1 p {
   color: white;
 }
@@ -73,10 +88,18 @@ a:hover {
   margin-left: 7%;
   line-height: 60%;
 }
+<<<<<<< HEAD
+/* SLIDER */
+#slider .slider2 {
+  height: 50rem;
+  width: 87.5rem;
+  margin-left: 20rem;
+=======
 .header1 .left2 .info {
   font-size: 15px;
   margin-left: 7%;
   color: #676767;
+>>>>>>> 7cc89a0a1d8b3b6cc7cc3644cc31bb27d6bb1ece
 }
 
 /* SLIDER */
@@ -168,15 +191,27 @@ a:hover {
   height: 30em;
   padding-right: 2em;
 }
+<<<<<<< HEAD
+.cadre2 .cadre23 .fig1 {
+  bottom: 100px;
+  position: relative;
+=======
 .cadre2 .cadre23 .fignuit1 {
   margin-top: 360px;
   position: absolute;
+>>>>>>> 7cc89a0a1d8b3b6cc7cc3644cc31bb27d6bb1ece
   color: white;
   margin-left: 2.2%;
   font-size: 20px;
 }
+<<<<<<< HEAD
+.cadre2 .cadre23 .fig2 {
+  bottom: 75px;
+  position: relative;
+=======
 .cadre2 .cadre23 .figjunior {
   position: absolute;
+>>>>>>> 7cc89a0a1d8b3b6cc7cc3644cc31bb27d6bb1ece
   color: white;
   margin-top: 400px;
   margin-left: 2%;
@@ -267,6 +302,9 @@ a:hover {
   height: 20em;
   width: 37.6em;
   padding-right: 2em;
+<<<<<<< HEAD
+}/*# sourceMappingURL=mainb.css.map */
+=======
 }
 
 .oabody {
@@ -734,4 +772,6 @@ img {
 
 .copyright {
   color: #5c5c5c;
-}/*# sourceMappingURL=mainb.css.map */
+}
+
+/*# sourceMappingURL=mainb.css.map */
