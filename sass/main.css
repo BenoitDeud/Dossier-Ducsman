@@ -17,13 +17,14 @@
   margin: 0;
 }
 
-main {
+main.mainAccueil {
   padding-left: 20rem;
 }
 
 body.accueil {
   background-color: #1b1b1b;
   max-width: 2000px;
+  padding: 0;
 }
 
 body.accueil a {
@@ -286,6 +287,13 @@ body.accueil a:hover {
 
 .textOptions {
   color: #727272;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.InfoTel {
+  display: flex;
+  gap: 10px;
 }
 
 /* Services en + */
@@ -302,12 +310,27 @@ body.accueil a:hover {
 }
 
 .BoxServices {
-  padding: 60px 75px 20px 20px;
+  position: relative;
+  padding: 60px 75px 50px 20px;
   width: 250px;
   height: 150px;
   color: white;
   border: 1px solid rgba(105, 105, 105, 0.322);
   text-align: left;
+  line-height: 25px;
+}
+
+.BoxServices h3 {
+  line-height: 10px;
+}
+
+.BoxServices p {
+  line-height: 20px;
+}
+
+.prixOptions {
+  color: #aa8453;
+  font-size: 30px;
 }
 
 /* A Propos */
@@ -404,8 +427,8 @@ p {
 .contactright a {
   margin-right: 25em;
   color: #676767;
-  -webkit-text-decoration: underline #AB8A62;
-          text-decoration: underline #AB8A62;
+  text-decoration: underline #AB8A62;
+  text-decoration: underline #AB8A62;
 }
 
 textarea {
@@ -506,6 +529,7 @@ p {
 .left2 {
   display: flex;
   flex-direction: row;
+  align-items: flex-end;
 }
 
 .left2 .left21 {
@@ -513,7 +537,7 @@ p {
 }
 
 .left2 .left21 i {
-  font-size: 40px;
+  font-size: 30px;
   margin-left: -30%;
   margin-top: 1500px;
 }
@@ -570,10 +594,8 @@ header nav a.activeElie {
     position: fixed;
     display: block;
     margin-left: 0;
-    -webkit-backdrop-filter: blur(100px);
-            backdrop-filter: blur(100px);
   }
-  main {
+  main.mainAccueil {
     padding-left: 0rem;
   }
   .titreEnTete {
@@ -663,4 +685,27 @@ header nav a.activeElie {
     width: 130px;
     height: 180px;
   }
+}
+i {
+  color: #aa8453;
+  font-size: 50px;
+}
+
+.BoxServices i {
+  position: absolute;
+  top: 15%;
+  line-height: 60px;
+}
+
+.InfoTel i {
+  font-size: 25px;
+}
+
+.socialNetwork {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.socialNetwork i {
+  font-size: 20px;
 }/*# sourceMappingURL=main.css.map */
