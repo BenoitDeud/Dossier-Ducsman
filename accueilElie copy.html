@@ -16,9 +16,14 @@
 
 
     <header class="header1">
+        <div class="stars">
+            <div class="ti-star"></div>
+            <div class="ti-star"></div>
+            <div class="ti-star"></div>
+            <div class="ti-star"></div>
+            <div class="ti-star"></div>
+        </div><br>
 
-        <span class="ti-star"></span>
-        <i class="ti-star2"></i>
 
         <h1 class="ducs">DUCSMAN</h1>
 
@@ -52,46 +57,21 @@
 
     <img class="menuBurger" src="images/burgerIcones.png" alt="menu Burger">
 
-    <header class="header2">
-
-        <span class="ti-star"></span>
-        <i class="ti-star2"></i>
-
-        <h1 class="ducs">DUCSMAN</h1>
-
-        <p class="rompiche">Dormez comme jamais</p><br>
-
-        <nav class="liste">
-            <a href="">ACCUEIL</a><br>
-            <a href="">A PROPOS</a><br>
-            <a href="">CHAMBRES & SUITES</a><br>
-            <a href="">RESTAURANT</a><br>
-            <a href="">CENTRE DE BIEN-ÊTRE</a><br>
-            <a href="">ACTUALITÉ</a><br>
-            <a href="">CONTACT</a><br>
-        </nav><br>
-
-        <div class="left2">
-            <div class="left21">
-                <i class="flaticon-call"></i>
-            </div>
-
-            <div class="left22">
-                <p class="info">Informations & réservations</p><br>
-                <p class="num">03 20 01 02 03</p>
-            </div>
-
-        </div>
-    </header>
-
-
 
     <main>
 
 
 
         <div class="entete">
+
             <img src="images/slider/acceuil.jpg" alt="" class="imgEnTete">
+            <div class="stars">
+                <div class="ti-star"></div>
+                <div class="ti-star"></div>
+                <div class="ti-star"></div>
+                <div class="ti-star"></div>
+                <div class="ti-star"></div>
+            </div>
             <p class="titreEnTete">HÔTEL DE LUXE A PARIS</p>
             <p class="Titre2">L'EXPERIENCE <br> DU LUXE</p>
             <p class="bouttonEncadré">CHAMBRES & SUITES</p>
@@ -103,7 +83,14 @@
         <div class="experience">
 
             <div class="exptexte">
-                <h3 class="expTitre1">HÔTEL DE LUXE DUCSMAN</h3>
+                <div class="stars">
+                    <div class="ti-star"></div>
+                    <div class="ti-star"></div>
+                    <div class="ti-star"></div>
+                    <div class="ti-star"></div>
+                    <div class="ti-star"></div>
+                </div><br>
+                <h3 class="expTitre1">HÔTEL DE LUXE DUCSMAN</h3><br>
                 <h2 class="expTitre2">L'expérience du luxe</h2><br>
                 <p class="expLorem">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, voluptates
                     voluptatum
@@ -128,7 +115,7 @@
 
 
         <div class="ChambresSuites">
-            <h3 class="expTitre1">DUCSMAN</h3>
+            <h3 class="expTitre1">DUCSMAN</h3><br>
             <h2 class="expTitre2">Chambres & Suites</h2><br>
             <div class="gridChambresSuites">
                 <div class="row1">
@@ -179,8 +166,8 @@
             <figure class="decRow">
                 <img src="images/restaurant/1.jpg" alt="image du restaurant">
                 <figcaption class="decFig">
-                    <h3>DECOUVERTE</h3><br>
-                    <h2>Le Restaurant</h2><br>
+                    <h3 class="expTitre1">DECOUVERTE</h3><br>
+                    <h2 class="expTitre2">Le Restaurant</h2><br>
                     <p class="textedecouverte">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores at sit
                         nihil
                         amet aliquid temporibus non expedita sunt eligendi impedit officia quae, magni aut asperiores
@@ -192,8 +179,8 @@
             <figure class="decRow reverse">
 
                 <figcaption class="decFig">
-                    <h3>DECOUVERTE</h3><br>
-                    <h2>Le Restaurant</h2><br>
+                    <h3 class="expTitre1">EXPERIENCE</h3><br>
+                    <h2 class="expTitre2">Centre de bien-être</h2><br>
                     <p class="textedecouverte">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores at sit
                         nihil
                         amet aliquid temporibus non expedita sunt eligendi impedit officia quae, magni aut asperiores
@@ -206,8 +193,8 @@
             <figure class="decRow">
                 <img src="images/spa/2.jpg" alt="image du restaurant">
                 <figcaption class="decFig">
-                    <h3>DECOUVERTE</h3><br>
-                    <h2>Le Restaurant</h2><br>
+                    <h3 class="expTitre1">EPANOUISSEMENT</h3><br>
+                    <h2 class="expTitre2">Centre de fitness</h2><br>
                     <p class="textedecouverte">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores at sit
                         nihil
                         amet aliquid temporibus non expedita sunt eligendi impedit officia quae, magni aut asperiores
@@ -219,8 +206,8 @@
             <figure class="decRow reverse">
 
                 <figcaption class="decFig">
-                    <h3>DECOUVERTE</h3><br>
-                    <h2>Le Restaurant</h2><br>
+                    <h3 class="expTitre1">EXPERIENCE</h3><br>
+                    <h2 class="expTitre2">Centre aquatique</h2><br>
                     <p class="textedecouverte">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores at sit
                         nihil
                         amet aliquid temporibus non expedita sunt eligendi impedit officia quae, magni aut asperiores
@@ -347,10 +334,10 @@
 
 <script>
     const menuBurger = document.querySelector(".menuBurger")
-    const header2 = document.querySelector(".header2")
+    const header1 = document.querySelector(".header1")
 
     menuBurger.addEventListener('click', () => {
-        header2.classList.toggle('mobile-menu')
+        header1.classList.toggle('mobile-menu')
     })
 </script>
 
