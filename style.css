@@ -73,9 +73,9 @@ body {
 }
 
 .imagetitre {
-  width: 1500px;
+  width: 1219px;
   display: grid;
-  margin-left: 272px;
+  margin-left: 296px;
 }
 
 .ducss .titre {
@@ -108,8 +108,10 @@ p {
   margin-right: 300px;
   display: flex;
   flex-direction: row;
-  gap: 100px;
+    gap: 100px;
+    gap: 18px;
   justify-content: flex-start;
+  align-items: center;
 }
 .box .ducs {
   color: #aa8453;
@@ -136,7 +138,7 @@ p {
 }
 
 .box5 {
-  margin-top: 200px;
+    margin-top: 200px;
   margin-left: 380px;
   margin-right: 300px;
   display: flex;
@@ -167,6 +169,7 @@ button {
 
 .imagetitre {
   opacity: 0.7;
+  
 }
 
 .h1 {
