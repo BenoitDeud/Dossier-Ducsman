@@ -51,8 +51,12 @@ a:hover {
     padding-right: 2rem;
     position: fixed;
     height: 100vh;
-    /* class header */
-    /* div2 */
+
+}
+
+.stars {
+    display: flex;
+    flex-flow: row nowrap;
 }
 
 p {
@@ -405,20 +409,18 @@ footer span {
 }
 
 @media screen and (max-width: 800px) {
-    .header1 {
-        display: none;
-    }
+
 
     .menuBurger {
         display: block;
-        width: 75px;
+        width: 60px;
         position: absolute;
         top: 25px;
         left: 25px;
         z-index: 2;
     }
 
-    .header2 {
+    .header1 {
         display: none;
         position: absolute;
         z-index: 1;
@@ -428,14 +430,13 @@ footer span {
         transition: .5s;
     }
 
-    .header2.mobile-menu {
+    .header1.mobile-menu {
         background-color: #1b1b1b;
-        padding: 300px 50px 100vh 100px;
+        padding: 150px 50px 100vh 100px;
         position: fixed;
         display: block;
         margin-left: 0;
     }
-
 
 
 
@@ -480,7 +481,9 @@ footer span {
         overflow: auto;
     }
 
-    .gridChambresSuites::-webkit-scrollbar{width: 0;}
+    .gridChambresSuites::-webkit-scrollbar {
+        width: 0;
+    }
 
     .row1 {
         display: flex;
