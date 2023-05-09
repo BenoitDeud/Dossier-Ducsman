@@ -31,8 +31,7 @@ body.accueil a {
   color: #676767;
   text-decoration: none;
 }
-
-body.accueil a:hover {
+body.accueil a :hover {
   color: #aa8453;
 }
 
@@ -40,12 +39,10 @@ body.accueil a:hover {
 .entete {
   position: relative;
 }
-
 .entete img {
   width: 100%;
   transition: 0.2s;
 }
-
 .entete img:hover {
   width: 100%;
   opacity: 0.7;
@@ -86,8 +83,7 @@ body.accueil a:hover {
   font-size: 11px;
   transition: 0.2s;
 }
-
-.bouttonEncadré:hover {
+.bouttonEncadré :hover {
   color: black;
   background-color: white;
 }
@@ -103,6 +99,9 @@ body.accueil a:hover {
   position: relative;
   justify-content: left;
   color: white;
+}
+.experience img {
+  height: 250px;
 }
 
 .exptexte {
@@ -122,10 +121,6 @@ body.accueil a:hover {
 .expLorem {
   font-size: 12px;
   color: #727272;
-}
-
-.experience img {
-  height: 250px;
 }
 
 .expImg1 {
@@ -160,7 +155,6 @@ body.accueil a:hover {
 .imgLink {
   position: relative;
 }
-
 .imgLink img:hover {
   opacity: 0.7;
 }
@@ -190,8 +184,7 @@ body.accueil a:hover {
   padding: 5px;
   transition: 0.2s;
 }
-
-.vertical:hover {
+.vertical :hover {
   color: black;
   background-color: white;
 }
@@ -226,7 +219,6 @@ body.accueil a:hover {
   display: flex;
   flex-flow: row nowrap;
 }
-
 .decRow img {
   width: 50%;
 }
@@ -243,8 +235,7 @@ body.accueil a:hover {
   width: 150px;
   transition: 0.2s;
 }
-
-.enSavoirPlus:hover {
+.enSavoirPlus :hover {
   border: 1px solid #aa8453;
   background-color: rgba(27, 27, 27, 0);
 }
@@ -319,11 +310,9 @@ body.accueil a:hover {
   text-align: left;
   line-height: 25px;
 }
-
 .BoxServices h3 {
   line-height: 10px;
 }
-
 .BoxServices p {
   line-height: 20px;
 }
@@ -357,7 +346,6 @@ footer.elie {
   padding: 20px;
   background-color: #202020;
 }
-
 footer.elie span {
   color: rgba(138, 138, 138, 0.808);
 }
@@ -570,6 +558,84 @@ header nav a.activeElie {
   display: none;
 }
 
+.header2 {
+  background-color: #1b1b1b;
+  color: #AB8A62;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 2%;
+  padding-left: 30px;
+  padding-bottom: 50%;
+  width: 12%;
+  padding-right: 2%;
+  position: fixed;
+  margin-top: -10px;
+}
+
+.header2 .headertitle, .headercit, .etoile {
+  align-items: center;
+  text-align: center;
+  color: #AB8A62;
+  margin: 0px;
+  line-height: 22px;
+}
+
+.headercit {
+  color: white;
+}
+
+.headerinfo {
+  color: rgba(122, 122, 122, 0.7);
+  padding-bottom: -150px;
+}
+
+.liste {
+  color: #676767;
+  line-height: 30px;
+  padding-top: 30px;
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.contact {
+  color: #AB8A62;
+}
+
+.header2 .left2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.header2 .left2 .left21 {
+  order: 1;
+}
+
+.header2 .left2 .left21 i {
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.header2 .left2 .left22 {
+  order: 2;
+}
+
+.header2 .left2 .num {
+  color: #AB8A62;
+  font-size: 15px;
+  margin: 0px;
+}
+
+#slider .slider2 {
+  height: 50rem;
+  width: 87.5rem;
+  margin-left: 20rem;
+}
+
+.nomheader {
+  font-weight: 100px;
+}
+
 @media screen and (max-width: 800px) {
   img.menuBurger {
     display: block;
@@ -652,11 +718,11 @@ header nav a.activeElie {
   .decRow {
     flex-flow: column wrap;
   }
-  .reverse {
-    flex-flow: column-reverse;
-  }
   .decRow img {
     width: 100%;
+  }
+  .reverse {
+    flex-flow: column-reverse;
   }
   /* Options */
   .FlexOptions {
