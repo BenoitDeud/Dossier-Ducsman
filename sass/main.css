@@ -362,6 +362,11 @@ footer.elie span {
   font-family: "Flaticon";
 }
 
+.bodycontact a {
+  color: #676767;
+  text-decoration: none;
+}
+
 a:hover {
   color: #AB8A62;
 }
@@ -505,9 +510,9 @@ textarea {
   color: #aa8453;
 }
 
-p {
+/* p {
   color: white;
-}
+} */
 
 .liste {
   color: #676767;
@@ -752,7 +757,7 @@ header nav a.activeElie {
     height: 180px;
   }
 }
-i {
+.accueil i {
   color: #aa8453;
   font-size: 50px;
 }
