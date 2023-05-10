@@ -25,9 +25,10 @@ a:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
+  align-items: self-start;
   width: 78%;
   height: 25em;
+  padding-top: 75px;
   padding-left: 25%;
   margin: auto;
   gap: 20%;
@@ -117,6 +118,15 @@ color: white;
 padding-left: 10px;
 }
 
+<<<<<<< HEAD
+=======
+.proposContact { position: relative;
+left: 280px;
+top: 50px;
+z-index: -1;}
+
+
+>>>>>>> bcc027f5254f4f5eadf3ff6e975e65be50e47055
 .mention {
 width: 700px;
 height: 3.5%;

@@ -68,11 +68,13 @@ body.accueil a {
     top: 35%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
+    color: white;
 }
 
 .Titre2 {
     top: 50%;
     font-size: 75px;
+    color: white;
 }
 
 .bouttonEncadré {
@@ -81,6 +83,7 @@ body.accueil a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 11px;
     transition: .2s;
+    color: white;
 
     :hover {
         color: black;

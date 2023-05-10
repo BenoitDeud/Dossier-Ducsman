@@ -9,11 +9,25 @@
     line-height: 60px;
 }
 
-.InfoTel i {font-size: 25px;}
-
-
-.socialNetwork {display: flex;
-flex-flow: row nowrap;
+.InfoTel i {
+    font-size: 25px;
 }
 
-.socialNetwork i {font-size: 20px;}
+
+.socialNetwork {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.socialNetwork i {
+    font-size: 20px;
+    color: white;
+}
+
+.flaticon-call {
+    color: #aa8453;
+}
+
+.telpropos i {
+    color: white;
+font-size: 17px;}
