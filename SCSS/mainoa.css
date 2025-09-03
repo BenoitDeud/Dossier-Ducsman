@@ -28,6 +28,9 @@
   font-weight: normal;
   font-style: normal;
 }
+@media (min-width: 320px) {
+  /* styles à appliquer pour les écrans de tablette ou plus grands */
+}
 /* scss background color*/
 /* Body */
 body {
@@ -554,7 +557,7 @@ img {
   font-family: "Flaticon";
 }
 
-.flaticon-call {
+.flatcall1 {
   font-size: 30px;
   color: #95754a;
   margin-left: 29.5%;
